@@ -13,6 +13,7 @@ public class GameWindow {
 		// JSFrame close program when window is closed
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jframe.add(gamePanel);
+		jframe.setLocationRelativeTo(null);
 		// JFrame window visible
 		jframe.setVisible(true);
 		
